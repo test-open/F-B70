@@ -16,7 +16,7 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
-rm -f proto_l2tp.lua feeds/luci/protocols/luci-proto-ppp/luasrc/model/cbi/admin_network
-rm -f proto_pppoa.lua feeds/luci/protocols/luci-proto-ppp/luasrc/model/cbi/admin_network
-rm -f proto_pppossh.lua feeds/luci/protocols/luci-proto-ppp/luasrc/model/cbi/admin_network
-rm -f proto_pptp.lua feeds/luci/protocols/luci-proto-ppp/luasrc/model/cbi/admin_network
+#rm -f proto_l2tp.lua feeds/luci/protocols/luci-proto-ppp/luasrc/model/cbi/admin_network
+#rm -f proto_pppoa.lua feeds/luci/protocols/luci-proto-ppp/luasrc/model/cbi/admin_network
+#rm -f proto_pppossh.lua feeds/luci/protocols/luci-proto-ppp/luasrc/model/cbi/admin_network
+#rm -f proto_pptp.lua feeds/luci/protocols/luci-proto-ppp/luasrc/model/cbi/admin_network
