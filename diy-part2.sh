@@ -18,3 +18,8 @@ sed -i 's/msgstr "接口信息"/msgstr "基本设置"/g' package/lean/luci-app-z
 sed -i '$a \\' package/lean/luci-app-zerotier/po/zh-cn/zerotier.po
 sed -i '$a msgid "Interface Info"' package/lean/luci-app-zerotier/po/zh-cn/zerotier.po
 sed -i '$a msgstr "接口信息"' package/lean/luci-app-zerotier/po/zh-cn/zerotier.po
+#bypass
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-bypass package/diy/luci-app-bypass
+#ByPass依赖
+find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-redir/shadowsocksr-libev-alt/g' {}
+find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-server/shadowsocksr-libev-server/g' {}
