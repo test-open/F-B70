@@ -38,5 +38,3 @@ sed -i '$a msgstr "启用"' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.
 sed -i '$a \\' package/diy/luci-app-ramfree/po/zh_Hans/release_ram.po
 sed -i '$a msgid "Apply"' package/luci-app-ramfree/po/zh_Hans/release_ram.po
 sed -i '$a msgstr "启用"' package/luci-app-ramfree/po/zh_Hans/release_ram.po
-#svvr
-sed -i 's/Hello World/穿越封锁/g' package/diy/luci-app-vssr/po/zh_Hans/vssr.po
