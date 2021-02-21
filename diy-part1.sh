@@ -37,6 +37,11 @@ svn co  https://github.com/garypang13/openwrt-packages/trunk/tcping package/diy/
 svn co  https://github.com/garypang13/openwrt-packages/trunk/naiveproxy package/diy/naiveproxy
 svn co  https://github.com/garypang13/openwrt-packages/trunk/redsocks2 package/diy/redsocks2
 svn co  https://github.com/garypang13/openwrt-packages/trunk/v2ray package/diy/v2ray
+#bypass
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-bypass package/diy/luci-app-bypass
+svn co https://github.com/garypang13/openwrt-packages/trunk/chinadns-ng package/diy/chinadns-ng
+svn co https://github.com/garypang13/openwrt-packages/trunk/trojan-plus package/diy/trojan-plus
+svn co https://github.com/garypang13/openwrt-packages/trunk/trojan-go package/diy/trojan-go
 #主题
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/diy/luci-theme-argon
 #svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-argon-config package/diy/luci-app-argon-config
